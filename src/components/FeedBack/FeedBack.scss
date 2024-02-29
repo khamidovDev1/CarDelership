@@ -1,0 +1,95 @@
+.feedback {
+    width: 100%;
+    height: 80vh;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .feedbackTitle {
+        display: flex;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        // height: 90%;
+
+        hr {
+            width: 30%;
+            height: 1px;
+        }
+    }
+
+    .feedback_div1 {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .feedbackDiv1_div {
+            width: 350px;
+            height: 250px;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: .4s;
+            background-color: white;
+            padding-top: 10px;
+
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            .divHeader {
+                width: 100%;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .userPic {
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 100%;
+                    overflow: hidden;
+
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    h1 {
+                        font-family: sans-serif;
+                        font-size: 20px;
+                    }
+
+                    p {
+                        color: black;
+                    }
+                }
+
+            }
+
+            .divFooter {
+                width: 100%;
+                padding: 20px;
+
+                p {
+                    font-family: sans-serif;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    color: #666872;
+                }
+            }
+        }
+    }
+}

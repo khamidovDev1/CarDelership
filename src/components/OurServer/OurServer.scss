@@ -1,0 +1,66 @@
+.ourserver {
+    width: 100%;
+    height: 80vh;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .servertitle {
+        display: flex;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        // height: 90%;
+
+        hr {
+            width: 30%;
+            height: 1px;
+        }
+    }
+
+    .server.tetx {
+        width: 80%;
+        height: 50px;
+
+        p {
+            font-family: sans-serif;
+        }
+    }
+
+    .serverCard {
+        width: 80%;
+        height: 250px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        div {
+            width: 340px;
+            height: 250px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-left: 20px;
+            background-color: white;
+
+            .carIcon {
+                font-size: 60px;
+                color: #A2001D;
+            }
+
+            h3 {
+                font-size: 30px;
+                font-family: sans-serif;
+            }
+
+            p {
+                font-family: sans-serif;
+                color: #666872;
+            }
+        }
+    }
+}
