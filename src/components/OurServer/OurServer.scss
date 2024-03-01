@@ -20,12 +20,14 @@
         }
     }
 
-    .server.tetx {
+    .server_text {
         width: 80%;
         height: 50px;
 
+
         p {
             font-family: sans-serif;
+            // font-size: 40px;
         }
     }
 
@@ -60,6 +62,58 @@
             p {
                 font-family: sans-serif;
                 color: #666872;
+            }
+        }
+    }
+}
+
+@media (max-width:431px) {
+    .ourserver {
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        .servertitle {
+            hr {
+
+                width: 20%;
+            }
+        }
+
+        .serverCard {
+            height: fit-content;
+            flex-direction: column;
+
+            div {
+                width: 300px;
+                height: 210px;
+                margin-top: 15px;
+
+                .carIcon {
+                    font-size: 50px;
+                }
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .server_text {
+            width: 90%;
+            // color: white !important;
+            padding-top: 15px;
+
+            p {
+                // color: white;
+                font-size: 15px;
+                display: flex;
+                // align-items: center;
+                justify-content: center;
             }
         }
     }

@@ -17,7 +17,7 @@ function App() {
             <Main1_footer />
             <Main2 />
             <Explore />
-            {/* <OurServer /> */}
+            <OurServer />
             {/* <EVs /> */}
             {/* <FeedBack /> */}
             {/* <Footer /> */}

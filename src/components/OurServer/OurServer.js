@@ -12,7 +12,7 @@ function OurServer() {
                 <hr />
             </div>
             <div className="server_text">
-                <p>We Provide many of the best servises for you  and you will get the best benefits here</p>
+                <p className='P'>We Provide many of the best servises for you  and you will get the best benefits here</p>
             </div>
             <div className='serverCard'>
                 <div>
@@ -20,12 +20,16 @@ function OurServer() {
                     <h3>Top Buy & sell Car</h3>
                     <p>we Provide many of the best servises for you  and you will get the best benefits here </p>
                 </div>
-                <div><IoCarSportOutline className='carIcon' />
+                <div>
+                    <IoCarSportOutline className='carIcon' />
                     <h3>Top Buy & sell Car</h3>
-                    <p>we Provide many of the best servises for you  and you will get the best benefits here </p></div>
-                <div><IoCarSportOutline className='carIcon' />
+                    <p>we Provide many of the best servises for you  and you will get the best benefits here </p>
+                </div>
+                <div>
+                    <IoCarSportOutline className='carIcon' />
                     <h3>Top Buy & sell Car</h3>
-                    <p>we Provide many of the best servises for you  and you will get the best benefits here </p></div>
+                    <p>we Provide many of the best servises for you  and you will get the best benefits here </p>
+                </div>
             </div>
         </div>
     )
