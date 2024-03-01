@@ -74,9 +74,12 @@
         padding-bottom: 15px;
 
         .servertitle {
-            hr {
+            h1 {
+                // font-size: 20px;
+            }
 
-                width: 20%;
+            hr {
+                width: 10%;
             }
         }
 
