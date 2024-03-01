@@ -1,22 +1,19 @@
 .primary-navigation {
-    width: 100%;
-    height: 20vh;
+    // width: 100%;
+    // height: 20vh;
     background-color: #f8f8f8;
 
     &.primary-navigation {
-        width: 100%;
-        height: 100%;
-        // margin: 0 auto;
+        // width: 100%;
+        // height: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
-        // background-color: red;
-        // padding: 120px 0 0 0;
         text-align: center;
         font-size: 16px;
 
         .ul {
-            width: 60%;
+            // width: 60%;
             height: 100px;
             display: flex;
             align-items: center;
@@ -25,13 +22,11 @@
         }
 
         ul .li {
-            // width: 70%;
+            height: fit-content;
             list-style: none;
             margin: 0 auto;
             border-left: 2px solid #3ca0e7;
             display: inline-block;
-            // flex-direction: row;
-            // padding: 0 30px;
             position: relative;
             text-decoration: none;
             text-align: center;
@@ -73,11 +68,11 @@
         }
 
         ul li ul {
-            visibility: hidden;
-            opacity: 0;
+            visibility: visible;
+            // opacity: 0;
             position: absolute;
-            padding-left: 0;
-            left: 0;
+            // padding-left: 0;
+            // left: 0;
             display: none;
             background: rgba(255, 255, 255, 0.974);
             padding: 10px;
@@ -99,8 +94,8 @@
         }
 
         ul li ul li {
-            clear: both;
-            width: 100%;
+            // clear: both;
+            min-width: 100%;
             text-align: left;
             margin-bottom: 20px;
             border-style: none;
@@ -128,4 +123,14 @@ a {
 
 ul li ul li a {
     transition: all 0.5s ease;
+}
+
+@media (max-width:431px) {
+    .primary-navigation {
+        display: none;
+
+        &.primary-navigation {
+            display: none;
+        }
+    }
 }

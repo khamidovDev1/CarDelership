@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Navbar.scss"
-import logo from "../../images/logo.svg"
+import logo from "../../images/logo.png"
 import { Link } from 'react-router-dom'
+import { FaBarsStaggered } from "react-icons/fa6";
+
 
 function Navbar() {
     return (
@@ -19,6 +21,10 @@ function Navbar() {
                 <li><Link to="/main5page">menu 5</Link></li>
                 <li><Link to="/main6page">menu 6</Link></li>
             </ul>
+            <div className='barsIcon'>
+                <FaBarsStaggered />
+
+            </div>
         </div>
     )
 }

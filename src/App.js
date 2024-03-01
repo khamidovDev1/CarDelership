@@ -17,10 +17,10 @@ function App() {
             <Main1_footer />
             <Main2 />
             <Explore />
-            <OurServer />
-            <EVs />
-            <FeedBack />
-            <Footer />
+            {/* <OurServer /> */}
+            {/* <EVs /> */}
+            {/* <FeedBack /> */}
+            {/* <Footer /> */}
         </div>
     );
 }

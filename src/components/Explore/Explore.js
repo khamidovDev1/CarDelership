@@ -2,6 +2,7 @@ import React from 'react'
 import "./Explore.scss"
 import CarModel from "../../images/car1.svg"
 import CarModel2 from "../../images/car2.svg"
+import { Data } from '../../staticData.js'
 
 function Explore() {
     return (
@@ -18,7 +19,6 @@ function Explore() {
                     <li>Crossovers 7 SUVs</li>
                     <li>Electrified</li>
                 </div>
-
                 <div className='explore_infor'>
                     <div className='infor_div1'>
                         <div className='card_title'>
@@ -76,9 +76,32 @@ function Explore() {
                             </button>
                         </div>
                         <div className='img_div'>
-                            <img src={CarModel} alt="" />
+                            <img src={CarModel2} alt="" />
                         </div>
                     </div>
+                </div>
+                <div className='mediaCard'>
+                    {
+                        Data.map((item) => (
+                            <div key={item.id} className='cardInfor'>
+                                <div className='cardImg'>
+                                    <img src={item.img} alt="" />
+                                </div>
+                                <div className='cardTitle'>
+                                    <h1>{item.modelName}</h1>
+                                    <p>{item.text}</p>
+                                </div>
+                                <div className='cardData'>
+                                    <p>{item.modelYear}</p>
+                                    <p>{item.model}</p>
+                                    <p>{item.fuel}</p>
+                                </div>
+                                <div className="cardBtn">
+                                    <button>Order Now</button>
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </div>
