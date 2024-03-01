@@ -1,10 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Explore.scss"
 import CarModel from "../../images/car1.svg"
 import CarModel2 from "../../images/car2.svg"
 import { Data } from '../../staticData.js'
+import { TruckData } from '../../staticData.js'
+import { Crossovers } from '../../staticData.js'
+import { Electrified } from '../../staticData.js'
 
 function Explore() {
+    const [getCard, setCard] = useState(Data)
+    function ChangeCard() {
+        setCard(TruckData)
+    }
+    function ChangeCard2() {
+        setCard(Data)
+    }
+    function ChangeCard3() {
+        setCard(Crossovers)
+    }
+    function ChangeCard4() {
+        setCard(Electrified)
+    }
+
     return (
         <div className='explore'>
             <div className='explore_div'>
@@ -14,10 +31,10 @@ function Explore() {
                     <hr />
                 </div>
                 <div className='explore_car_types'>
-                    <li>Car & Minivan</li>
-                    <li>Trucks</li>
-                    <li>Crossovers 7 SUVs</li>
-                    <li>Electrified</li>
+                    <li onClick={ChangeCard2}>Car & Minivan</li>
+                    <li onClick={ChangeCard}>Trucks</li>
+                    <li onClick={ChangeCard3}>Crossovers 7 SUVs</li>
+                    <li onClick={ChangeCard4}>Electrified</li>
                 </div>
                 <div className='explore_infor'>
                     <div className='infor_div1'>
@@ -82,7 +99,7 @@ function Explore() {
                 </div>
                 <div className='mediaCard'>
                     {
-                        Data.map((item) => (
+                        getCard.map((item) => (
                             <div key={item.id} className='cardInfor'>
                                 <div className='cardImg'>
                                     <img src={item.img} alt="" />
@@ -95,6 +112,7 @@ function Explore() {
                                     <p>{item.modelYear}</p>
                                     <p>{item.model}</p>
                                     <p>{item.fuel}</p>
+                                    <p>{item.price}</p>
                                 </div>
                                 <div className="cardBtn">
                                     <button>Order Now</button>
