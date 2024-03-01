@@ -93,3 +93,34 @@
         }
     }
 }
+
+
+@media (max-width:431px) {
+    .feedback {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 10px;
+
+        .feedbackTitle {
+            height: 100px;
+            width: 100%;
+
+            hr {
+                width: 10%;
+
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+
+        .feedback_div1 {
+            flex-direction: column;
+
+            .feedbackDiv1_div {
+                margin-top: 20px;
+            }
+        }
+    }
+}

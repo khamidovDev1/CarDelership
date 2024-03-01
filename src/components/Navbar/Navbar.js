@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navbar.scss"
 import logo from "../../images/logo.png"
 import { Link } from 'react-router-dom'
@@ -6,6 +6,11 @@ import { FaBarsStaggered } from "react-icons/fa6";
 
 
 function Navbar() {
+    const [sidebarVisible, setSidebarVisible] = useState(false);
+
+    const toggleSidebar = () => {
+        setSidebarVisible(!sidebarVisible);
+    };
     return (
         <div className='nav'>
             <ul>
@@ -21,11 +26,21 @@ function Navbar() {
                 <li><Link to="/main5page">menu 5</Link></li>
                 <li><Link to="/main6page">menu 6</Link></li>
             </ul>
-            <div className='barsIcon'>
+            <div onClick={toggleSidebar} className='barsIcon'>
                 <FaBarsStaggered />
 
             </div>
-        </div>
+            <div className={`siteBar ${sidebarVisible ? 'visible' : ''}`}>
+
+                <li>Menu 1</li>
+                <li>Menu 1</li>
+                <li>Menu 1</li>
+                <li>Menu 1</li>
+                <li>Menu 1</li>
+                <li>Menu 1</li>
+
+            </div>
+        </div >
     )
 }
 

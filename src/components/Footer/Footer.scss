@@ -185,7 +185,61 @@
             }
         }
     }
+}
+
+@media (max-width:431px) {
+    .footer {
+        height: auto;
 
 
 
+        div {
+            flex-direction: column;
+            align-items: center;
+
+            .footer_div1 {
+                width: 100%;
+
+                .div1_text {
+                    width: 100%;
+                    align-items: center;
+
+                    .inputDiv {
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 15px;
+
+                        form {
+                            button {
+                                width: 20%;
+                            }
+                        }
+                    }
+
+                    h1 {
+                        font-size: 20px;
+                    }
+
+                    .iconsDiv {
+                        margin-top: 15px;
+                        width: 100%;
+                        flex-direction: row;
+                    }
+                }
+            }
+
+            .footer_div2 {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                div {
+                    ul {
+                        align-items: center;
+                    }
+                }
+            }
+        }
+
+    }
 }

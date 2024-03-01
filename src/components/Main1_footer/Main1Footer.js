@@ -6,7 +6,7 @@ import { IoChevronDown } from "react-icons/io5";
 
 
 
-function Main1_footer() {
+function Main1Footer() {
     return (
         <div role="navigation" className="primary-navigation">
             <ul className='ul'>
@@ -44,4 +44,4 @@ function Main1_footer() {
     )
 }
 
-export default Main1_footer
+export default Main1Footer
