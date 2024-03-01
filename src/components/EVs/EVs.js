@@ -1,6 +1,6 @@
 import React from 'react'
 import "./EVs.scss"
-import evsImg from "../../images/car3.svg"
+import evsImg from "../../images/car3.png"
 function EVs() {
     return (
         <div className='evs'>

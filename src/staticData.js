@@ -1,4 +1,4 @@
-import img1 from "./images/car1.svg"
+import img1 from "./images/car1.png"
 import bydTruck from "./images/bydTruck.jpeg"
 import CrossoversImg from "./images/7SUVs.jpeg"
 import ElectrifiedImg from "./images/Electrified.jpeg"

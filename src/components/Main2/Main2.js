@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Main2.scss"
-import main2_img1 from "../../images/Component 1.svg"
-import main2_img2 from "../../images/Component 2.svg"
-import main2_img3 from "../../images/Component 3.svg"
-import main2_img4 from "../../images/Component 4.svg"
-import main2_img5 from "../../images/Component 5.svg"
+import main2_img1 from "../../images/Component 1.png"
+import main2_img2 from "../../images/Component 2.png"
+import main2_img3 from "../../images/Component 3.png"
+import main2_img4 from "../../images/Component 4.png"
+import main2_img5 from "../../images/Component 5.png"
 
 function Main2() {
     return (

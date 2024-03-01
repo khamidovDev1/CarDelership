@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Explore.scss"
-import CarModel from "../../images/car1.svg"
-import CarModel2 from "../../images/car2.svg"
+import CarModel from "../../images/car1.png"
+import CarModel2 from "../../images/car2.png"
 import { Data } from '../../staticData.js'
 import { TruckData } from '../../staticData.js'
 import { Crossovers } from '../../staticData.js'

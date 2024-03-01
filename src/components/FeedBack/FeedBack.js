@@ -1,6 +1,6 @@
 import React from 'react'
 import "./FeedBack.scss"
-import userPic from "../../images/car1.svg"
+import userPic from "../../images/car1.png"
 function FeedBack() {
     return (
         <div className='feedback'>

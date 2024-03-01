@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Main1.scss"
 import { FaChevronRight } from "react-icons/fa";
-import CarPic from "../../images/car.svg"
+import CarPic from "../../images/car.png"
 
 
 function Main1() {
