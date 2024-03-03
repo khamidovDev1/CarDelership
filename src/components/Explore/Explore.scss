@@ -300,7 +300,11 @@
                 padding: 10px;
                 width: 100%;
                 min-height: fit-content;
-                // max-height: fit-content;
+                max-height: 400px;
+                // background-color: red;
+                overflow-x: scroll;
+                // white-space: nowrap;
+                scroll-behavior: smooth;
 
                 .cardInfor {
                     width: auto;

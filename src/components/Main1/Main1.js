@@ -15,7 +15,7 @@ function Main1() {
                 </div>
             </div>
             <div className='main1_div2'>
-                <img src={CarPic} alt="" />
+                <img src={CarPic} alt="sadsa" />
             </div>
         </div>
     )

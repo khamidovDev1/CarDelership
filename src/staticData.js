@@ -12,6 +12,33 @@ export const Data = [
         fuel: "Fuel: Pertol",
         price: "$36,620",
         id: 1
+    }, {
+        img: img1,
+        modelName: "Tesla Model 3",
+        text: "Used",
+        modelYear: "Year: 2023",
+        model: "Model: LC76",
+        fuel: "Fuel: Pertol",
+        price: "$36,620",
+        id: 1
+    }, {
+        img: img1,
+        modelName: "Tesla Model 3",
+        text: "Used",
+        modelYear: "Year: 2023",
+        model: "Model: LC76",
+        fuel: "Fuel: Pertol",
+        price: "$36,620",
+        id: 1
+    }, {
+        img: img1,
+        modelName: "Tesla Model 3",
+        text: "Used",
+        modelYear: "Year: 2023",
+        model: "Model: LC76",
+        fuel: "Fuel: Pertol",
+        price: "$36,620",
+        id: 1
     },
 ]
 export const TruckData = [

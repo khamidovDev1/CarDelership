@@ -22,6 +22,12 @@ function Explore() {
         setCard(Electrified)
     }
 
+    // for (let i = 0; i < items.length; i++) {
+    //     itemsList.push(<div key={i}>{items[i]}</div>);
+    // }
+
+
+
     return (
         <div className='explore'>
             <div className='explore_div'>
